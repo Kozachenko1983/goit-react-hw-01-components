@@ -1,0 +1,15 @@
+.history {
+  width: 750px;
+  margin: 0 auto;
+  box-shadow: 0 0 5px rgba(41, 46, 53, 0.5);
+  border-radius: 3px;
+}
+
+th {
+  background: rgb(54, 157, 175);
+  color: aliceblue;
+}
+
+tbody:nth-child(odd) {
+  background: rgb(222, 250, 250);
+}

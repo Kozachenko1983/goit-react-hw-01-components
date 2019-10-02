@@ -1,0 +1,8 @@
+.pricingPlan {
+  display: flex;
+  justify-content: space-around;
+  background: #ebeaea;
+  padding: 90px 20px 40px;
+  box-shadow: 0 0 5px rgba(15, 17, 20, 1);
+  border-radius: 3px;
+}

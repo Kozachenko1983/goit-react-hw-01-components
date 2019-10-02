@@ -1,0 +1,31 @@
+.section {
+  width: 250px;
+  margin: 0 auto;
+  box-shadow: 0 0 5px rgba(41, 46, 53, 0.5);
+  border-radius: 3px;
+}
+
+.title {
+  font-weight: normal;
+}
+
+.list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  border-radius: 3px;
+}
+
+.item {
+  font-size: 14px;
+  width: 20%;
+  flex-grow: 1;
+  color: #ffffff;
+  border-radius: 3px;
+}
+
+.item span {
+  display: block;
+}
