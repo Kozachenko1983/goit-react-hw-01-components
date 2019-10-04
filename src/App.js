@@ -5,21 +5,16 @@ import Transactions from './components/transactions/Transactions';
 import user from './components/profile/userData';
 import stats from './components/stats/statsData';
 import transactions from './components/transactions/transactions.json';
-import PricingPlan from './components/pricingPlan/PricingPlan';
-import PricingPlanItems from './components/pricingPlan/pricingPlanItems.json';
+import FriendList from './components/FriendList/FriendList';
+import friends from './components/FriendList/FriendList.json';
+import './App.css';
 
 function App() {
   return (
     <div className="wrapper">
-      <Profile
-        avatar={user.avatar}
-        name={user.name}
-        tag={user.tag}
-        location={user.location}
-        stats={user.stats}
-      />
+      <Profile user={user} />
       <Stats title="Upload stats" stats={stats} />
-      <PricingPlan items={PricingPlanItems} />
+      <FriendList friends={friends} />
       <Transactions items={transactions} />
     </div>
   );

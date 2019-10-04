@@ -1,0 +1,32 @@
+.item {
+  width: 450px;
+  display: flex;
+  align-items: center;
+  margin: 5px auto;
+  padding: 5px;
+  box-shadow: 0 0 3px #000000;
+}
+
+.statusOn {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: greenyellow;
+  margin-right: 20px;
+  margin-left: 15px;
+}
+
+.statusOff {
+  composes: statusOn;
+  background: rgb(236, 240, 4);
+}
+
+.name {
+  font-size: 30px;
+  font-weight: 700;
+  margin-left: 20px;
+}
+
+.avatar {
+  border-radius: 10%;
+}
