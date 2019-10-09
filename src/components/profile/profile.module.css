@@ -1,13 +1,10 @@
 .profile {
   font-family: 'Lato', sans-serif;
-
   width: 250px;
   margin: 0 auto;
   box-shadow: 0 0 5px rgba(41, 46, 53, 0.5);
   border-radius: 3px;
 }
-
-.description {}
 
 .avatar {
   margin-top: 20px;
